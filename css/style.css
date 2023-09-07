@@ -1,0 +1,703 @@
+/* Psd to html ct skill test */
+/* Using bootstrap */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,900&display=swap');
+
+
+/* Header and hero section start */
+
+/* * {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+} */
+
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hero-section{
+width: 100%;
+height: 825px;
+background-image: url('../assets/hero-background.png');
+background-repeat: no-repeat;
+background-size:100% 100%;
+
+}
+.main-logo{
+    text-align: center;
+    padding: 0.438rem 0rem;
+}
+.main-menu{
+    list-style: none;
+    text-align: right;
+    padding: 1.5rem 10rem;
+    color: white;
+}
+ul li{  
+    display: inline;
+    margin: 0px 2.5rem;
+    font-family: 'Lato', sans-serif;
+    border-bottom: 2px solid white;
+    padding-bottom: 0.25rem;
+  }
+  .hero-text{
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 7.5rem;
+  }
+  .hero-text p{
+    margin: 10rem 0rem;
+    font-size: 7.5rem;
+    line-height: 6rem;
+  }
+  .hero-text span{
+    color: #414f6b;
+  }
+
+  /* Hero section / header section end */
+
+  /* Sticky nav section start */
+
+  .sticky-section{
+    height: 4.688rem;
+  }
+
+  .sticky-logo{
+    text-align: center;
+    padding: 0.438rem 0rem;
+  }
+
+  .sticky-text{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.324rem;
+    display: inline-block;
+    line-height: 0.9;
+    text-align: start;
+    padding: 0.938rem 0rem;
+  }
+
+  .sticky-text2{
+    color: #414f6b;
+
+  }
+
+  .sticky-menu{
+    padding: 0.938rem 9.875rem;
+    color: #414f6b;
+    width: 100%;
+
+  }
+  .sticky-menu li{
+    border-bottom: 2px solid #414f6b;
+    padding-bottom: 0.25rem;
+  }
+
+  /* Sticky nav section end */
+
+
+  /* Text block section start */
+  
+  .textblock-section{
+    height: 44.375rem;
+    position: relative;
+    background-image: url("../assets/text-block-bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .text-number{
+    font-size: 8.438rem;
+    font-family: Oswald;
+    position: absolute;
+    left: 22.188rem;
+    padding: 3.75rem 0;
+    color: #414f6b;
+    filter: opacity(0.5);
+  }
+  .text-heading{
+    color: #414f6b;
+    font-family: Oswald;
+    font-size: 2rem;
+    padding: 8.6rem 23.5rem;
+  }
+  .text-content{
+    position: absolute;
+    padding: 0 19.8rem;
+    bottom: 24rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+  }
+
+
+
+  /* Text block section end */
+
+
+  /* Carousal slider section start */
+
+  .slider-section{
+    background-image: url('../assets/slider-bg.jpg');
+    height: 12.188rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .carousel-inner{
+    margin: auto;
+    width: 70%;
+    top: 1.25rem;
+  }
+  .carousel .carousel-indicators button {
+    width: 10px;
+   height: 10px;
+   border-radius: 100%;
+   outline: none;
+ }
+
+ .carousel-indicators{
+  margin-bottom: -3.5rem;
+ }
+ 
+  /* Carousal slider section end */
+
+  /* Text and tabs section start */
+
+  .text-tab-section{
+    height: 767px;
+    position: relative;
+  }
+  .textblock-2-number{
+    font-size: 8.438rem;
+    font-family: Oswald;
+    position: absolute;
+    left: 22.188rem;
+    padding: 3.75rem 0;
+    color: #414f6b;
+    filter: opacity(0.5);
+
+  }
+  .textblock-2-heading{
+    color: #414f6b;
+    font-family: Oswald;
+    font-size: 2rem;
+    padding: 8.6rem 24.5rem;
+
+  }
+  .textblock-2-content{
+    position: absolute;
+    color: #414f6b;
+    top: 7.5rem;
+    left: 38.75rem;
+    right: 14.938rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+  }
+  .textblock-2-tabs{
+    background-color: #414f6b;
+    height: 40px;
+  }
+
+  .textblock-2-tabs{
+    color: #b0b4be;
+    font-size: 1.25rem;
+    padding: 0 8.75rem;
+  }
+  .textblock-2-tabs ul li{
+    float: left;
+    font-family: 'Oswald', sans-serif;
+    padding: 0.125rem 1.188rem;
+
+  }
+  .textblock-2-tabs ul li{
+    border-bottom: none;
+    width: 8.75rem;
+    height: 2.5rem;
+
+  }
+  .textblock-2-tabs a:active, li:hover{
+    color: #414f6b;
+    background-color: #b0b4be;
+    text-decoration: underline;
+    
+  }
+  .textblock-2-tabcontent1{
+    position: relative;
+    height: 545.008px;
+    width: 100%;
+    background-image: url('../assets/tab1-background.jpg');
+  }
+  .textblock-2-tabcontent2{
+    height: 34.063rem;
+    width: 100%;
+    background-image: url('../assets/tab2-background.jpg');
+  }
+  .tab1-inner-content{
+    position: absolute;
+    width: 23.75rem;
+    height: 14.313rem;
+    background-color:rgba(255,255,255,0.5); ;
+    margin: 6.25rem 21.875rem;
+  }
+  .tab1-inner-content-heading{
+    color: #414f6b;
+    font-family: Oswald;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 1.25rem 2.5rem;
+
+  }
+  .data-with-dates{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: center;
+  }
+  .data1{
+    position: relative;
+    top: -1.25rem;
+  }
+  .data2{
+    position: relative;
+    top: -2.063rem;
+  }
+  .data3{
+    position: relative;
+    top: -1.563rem;
+  }
+  .data4{
+    position: relative;
+    top: -1.25rem;
+  }
+  /* Text and tabs section end */
+
+
+  /* Footer section start */
+
+ footer {
+  background-color: #414f6b;
+  color: #63769d;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:75px;
+  width:100%;
+  text-align: center;
+}
+.footer-logo{
+  padding: 1rem 0;
+}
+.footer-text{
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  padding: 1.563rem 0rem;
+  
+}
+.show{
+  display: block;
+}
+
+  /* Footer section end */
+
+
+  /* Responsive design media queries */
+  .row{
+    --bs-gutter-x: 0rem;
+  }
+  /* Toogle for main menu */
+  @media only screen and (max-width: 1400px) {
+    
+  }
+
+
+
+
+  /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .main-logo{
+    padding: 10px 29px;
+    text-align: start;
+  }
+  .main-menu{
+    display: none;
+  }
+  .hero-section #my-links{
+    display: none;
+  }
+
+  .main-menu-wrapper {
+    overflow: hidden;
+    background-color: #414f6b;
+    position: relative;
+  }
+  .main-menu-wrapper .icon {
+    float: right;
+    padding: 22px;
+    color: #b0b4be;
+    left: 82%;
+  }
+  .main-menu-wrapper a {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+
+  /* Style the hamburger menu */
+.main-menu-wrapper a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+#my-links a:hover {
+  background-color: #b0b4be;
+  color: #414f6b;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+  
+.hero-text p{
+  font-size: 4.1rem;
+}
+.hero-section {
+  height: 520px;
+}
+.sticky-logo{
+  text-align: center;
+  padding: 4px 4px;
+}
+.col-md-6{
+  width: 50%;
+  height: 20%;
+}
+.sticky-menu{
+    padding: 0 19%;
+    position: inherit;
+    right: -80%;
+    left: 20%;
+    font-size: 12px;
+    width: 100%;
+    margin: 16% 0;
+}
+.sticky-menu li{
+  margin: 0 1%;
+}
+.text-number{
+  left: 5%;
+}
+.text-heading{
+  padding: 8.6rem;
+}
+.text-content{
+  padding: 0 1.6rem;
+  top: 15rem;
+}
+
+.carousel-indicators{
+  bottom: 10px;
+}
+.textblock-2-number{
+  left: 1.188rem;
+  padding: 0;
+}
+.textblock-2-heading {
+  padding: 4.9rem 9.6rem;
+}
+.textblock-2-content{
+  top: 9.1rem;
+  left: 2rem;
+  right: 0.938rem;
+  font-size: 12px;
+}
+.textblock-2-tabs{
+  padding: 0;
+  
+
+}
+.textblock-2-tabs ul{
+  display: inline;
+}
+.textblock-2-tabs ul li{
+  display: inline;
+  width: 0;
+  padding: 0px 2%;
+  font-size: 65%;;
+}
+.tab1-inner-content{
+  width: 13.75rem;
+  margin: 4.25rem 20%;
+  height: 20rem;
+}
+footer{
+  width: 100%;
+  display: block;
+}
+.footer-logo img{
+  width: 100%;
+
+}
+.footer-text{
+  font-size: 70%;
+}
+
+}
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+  .main-logo{
+    padding: 10px 29px;
+    text-align: start;
+  }
+  .main-menu{
+    display: none;
+  }
+  .hero-section #my-links{
+    display: none;
+  }
+
+  .main-menu-wrapper {
+    overflow: hidden;
+    background-color: #414f6b;
+    position: relative;
+  }
+  .main-menu-wrapper .icon {
+    float: right;
+    padding: 22px;
+    color: #b0b4be;
+    left: 82%;
+  }
+  .main-menu-wrapper a {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+
+  /* Style the hamburger menu */
+.main-menu-wrapper a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+#my-links a:hover {
+  background-color: #b0b4be;
+  color: #414f6b;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+  
+.hero-text p{
+  font-size: 4.1rem;
+}
+.hero-section {
+  height: 520px;
+}
+.sticky-logo{
+  text-align: center;
+  padding: 4px 4px;
+}
+.col-md-6{
+  width: 50%;
+  height: 20%;
+}
+.sticky-menu{
+    padding: 0 25%;
+    position: inherit;
+    right: -80%;
+    left: 20%;
+    font-size: 16px;
+    width: 100%;
+    margin: 8% 0;
+}
+.sticky-menu li{
+  margin: 0 1%;
+}
+.text-number{
+  left: 17%;
+}
+.text-heading{
+  padding: 8.6rem 33%;
+}
+.text-content{
+  padding: 0 12%;
+  top: 15rem;
+}
+
+.carousel-indicators{
+  bottom: 10px;
+}
+.textblock-2-number{
+  left: 17%;
+  padding: 0;
+}
+.textblock-2-heading {
+  padding: 4.9rem 34.8%;
+}
+.textblock-2-content{
+  top: 9.1rem;
+  left: 9rem;
+  right: 7.938rem;
+  font-size: 16px;
+}
+.textblock-2-tabs{
+  padding: 0 10%;
+  
+
+}
+.textblock-2-tabs ul{
+  display: inline;
+}
+.textblock-2-tabs ul li{
+  display: inline;
+  width: 0;
+  padding: 0px 2%;
+  font-size: 65%;;
+}
+.tab1-inner-content{
+  width: 25rem;
+  margin: 4.25rem 20%;
+  height: 16rem;
+}
+footer{
+  width: 100%;
+  display: block;
+}
+.footer-logo img{
+  width: 100%;
+
+}
+.footer-text{
+  font-size: 70%;
+}
+.carousel-inner{
+  width: 32%;
+}
+
+.carousel-item {
+  width: fit-content;
+}
+.footer-logo{
+  padding: 0 ;
+}
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #my-links{
+    display: none;
+  }
+  .main-menu-wrapper .icon {
+    display: none;
+  }
+  .sticky-menu{
+    padding: 0 25%;
+    position: inherit;
+    right: -80%;
+    left: 20%;
+    font-size: 16px;
+    width: 100%;
+    margin: 5% 0;
+}
+.sticky-menu li{
+  margin: 0 1%;
+}
+.text-number{
+  left: 19%;
+}
+.text-heading{
+  padding: 8.6rem 31.5%;
+}
+.text-content{
+  padding: 0 17%;
+  top: 15rem;
+}
+.carousel-inner{
+  width: 24%;
+}
+.textblock-2-number{
+  left: 17%;
+  padding: 0;
+}
+.textblock-2-heading {
+  padding: 4.9rem 34.8%;
+}
+.textblock-2-content{
+  top: 9.1rem;
+  left: 11rem;
+  right: 8.938rem;
+  font-size: 16px;
+}
+.textblock-2-tabs{
+  padding: 0 10%;
+  
+
+}
+.textblock-2-tabs ul{
+  display: inline;
+}
+.textblock-2-tabs ul li{
+  display: inline;
+  width: 15%;
+  padding: 1% 3%;
+  font-size: 65%;;
+}
+.tab1-inner-content{
+  margin: 6.25rem 16.4rem;
+}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .text-heading{
+    padding: 8.6rem 19.3rem;
+  }
+  .textblock-2-heading{
+  padding: 4.9rem 18.4rem;
+  }
+  .carousel-inner{
+    width: 17%;
+  }
+  .textblock-2-content{
+    top: 9.1rem;
+    left: 13rem;
+    right: 9.938rem;
+    font-size: 16px;
+  }
+  
+}
+
+
